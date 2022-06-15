@@ -1,0 +1,14 @@
+&INPUTPP
+  prefix='SF6-vdw-df2'
+  outdir='.'
+  filplot='SF6-vdw-df2.pp'
+  plot_num = 0
+/
+&PLOT
+  nfile=1
+  filepp(1)='SF6-vdw-df2.pp'
+  iflag=3
+  output_format=6
+  fileout='SF6-vdw-df2.cube'
+/
+
